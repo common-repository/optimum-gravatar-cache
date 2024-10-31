@@ -1,0 +1,1245 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Optimum Gravatar Cache\n"
+"Report-Msgid-Bugs-To: miguel@ncdc.pt\n"
+"POT-Creation-Date: 2018-12-10 15:31+0000\n"
+"PO-Revision-Date: 2018-05-24 12:32+0100\n"
+"Last-Translator: José Miguel Silva Caldeira <miguel@ncdc.pt>\n"
+"Language-Team: José Miguel Silva Caldeira <miguel@ncdc.pt>\n"
+"Language: PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: _n:1,2;_n_noop:1,2;_nx:1,2;_nx_noop:1,2\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: admin/templates/apache-server.php:50
+msgid ".htaccess file permissions"
+msgstr "Permissões do ficheiro .htaccess"
+
+#: optimum-gravatar-cache.php:1064
+msgid ""
+"<b>.htaccess file permissions</b>: Please enter an octal value for the "
+"permissions to be used for the .htaccess file."
+msgstr ""
+"<b>Permissões do ficheiro .htaccess</b>: Por favor, insira um valor em octal "
+"para as permissões do ficheiro .htaccess."
+
+#: optimum-gravatar-cache.php:569
+msgid ""
+"<b>Cache directory permissions</b>: Please enter an octal value for the "
+"permissions to be used for the cache directory."
+msgstr ""
+"<b>Permissões do directório de cache</b>: Por favor, insira um valor em "
+"octal para as permissões do directorio de cache."
+
+#: optimum-gravatar-cache.php:545
+msgid ""
+"<b>Check for outdated Gravatars every</b>: Please enter a whole number "
+"greater than or equal to 1."
+msgstr ""
+"<b>Procurar por Gravatars desatualizados a cada:</b> Esta opção aceita um "
+"valor inteiro a partir de 1."
+
+#: optimum-gravatar-cache.php:918
+msgid ""
+"<b>Download Gravatars that are this distance from being scrolled into view</"
+"b>: The size must be greater than or equal to 1 pixel (1px)."
+msgstr ""
+"<b>Descarregar Gravatars que estejam a esta distância</b>: A distância deve "
+"ter pelo menos 1 pixel."
+
+#: optimum-gravatar-cache.php:436
+#, php-format
+msgid ""
+"<b>Gravatar cache directory</b>: It is not possible to use the default "
+"WordPress directory '%s' as the Gravatar cache directory. However it is "
+"possible to create a directory within it.<br>For example: '%s'.<br><br>This "
+"will help avoid loss of data, which could be caused by clearing the Gravatar "
+"cache or uninstalling the plug-in."
+msgstr ""
+"<b>Directório do cache dos Gravatars</b>: Não é possivel usar o diretório "
+"por defeito do wordpress '%s' como directorio do cache dos Gravatars. No "
+"entanto é possível criar um directório dentro dele.<br>Por exemplo: '%s'."
+"<br><br>Isto é para evitar desastres ao limpar o cache ou a desinstalar o "
+"plug-in."
+
+#: optimum-gravatar-cache.php:447
+#, php-format
+msgid ""
+"<b>Gravatar cache directory</b>: It is not possible to use the default "
+"WordPress directory '%s' as the Gravatar cache directory. Please manually "
+"create a folder at the root of your site, or create a folder within the '%s' "
+"folder.<br><br>This will help avoid loss of data, which could be caused by "
+"clearing the Gravatar cache or uninstalling the plug-in."
+msgstr ""
+"<b>Directório do cache dos Gravatars</b>: Não é possível usar o directório "
+"por defeito do wordpress '%s' como directório do cache dos Gravatars. Crie o "
+"directório na raiz do servidor ou dentro do directório '%s'.<br><br>Isto é "
+"para evitar desastres ao limpar o cache ou a desinstalar o plug-in."
+
+#: optimum-gravatar-cache.php:521
+msgid ""
+"<b>Gravatar cache directory</b>: You cannot use relative directories, such "
+"as ./ or ../."
+msgstr ""
+"<b>Directório do cache dos Gravatars</b>: Não use directórios "
+"relativos ./ ../."
+
+#
+#: optimum-gravatar-cache.php:581
+msgid ""
+"<b>Gravatar files permissions</b>: Please enter an octal value for the "
+"permissions to be used for the cached Gravatar files."
+msgstr ""
+"<b>Permissões dos ficheiros Gravatars</b>: Por favor, insira um valor em "
+"octal para as permissões dos ficheiro Gravatars."
+
+#: optimum-gravatar-cache.php:597
+msgid ""
+"<b>Gravatar sizes used</b>: You must enter at least one size.<br>You can "
+"only enter whole numbers, greater than or equal to 1.<br>Multiple values "
+"must be separated by a comma."
+msgstr ""
+"<b>Tamanhos usados nos Gravatars</b>: Tem de inserir pelo menos um tamanho."
+"<br>Só são aceites números inteiros a partir de 1.<br>Separe os vários "
+"valores com virgula."
+
+#: optimum-gravatar-cache.php:780
+msgid ""
+"<b>Number of cached Gravatars to optimise simultaneously</b>: Please enter a "
+"whole number greater than or equal to 1."
+msgstr ""
+"<b>Quantos Gravatars optimizar de cada vez</b>: Por favor insira um numero "
+"inteiro a partir de 1."
+
+#: optimum-gravatar-cache.php:557
+msgid ""
+"<b>Number of users to check simultaneously</b>: Please enter a whole number "
+"greater than or equal to 1."
+msgstr ""
+"<b>Quantos utilizadores verificar de cada vez</b>: Por favor insira um "
+"numero inteiro a partir de 1."
+
+#: optimum-gravatar-cache.php:533
+msgid ""
+"<b>Refresh Gravatar cache every</b>: Please enter a whole number greater "
+"than or equal to 1."
+msgstr ""
+"<b>Actualizar os Gravatars a cada</b>: Por favor insira um numero inteiro a "
+"partir de 1."
+
+#: admin/templates/other-options.php:76
+msgid "Additional Classes"
+msgstr "Classes adicionais"
+
+#: admin/templates/apache-server.php:43
+msgid ""
+"Allows you to delete the .htaccess file that is stored in the cache "
+"directory."
+msgstr "Permite eliminar o ficheiro .htaccess no diretório de cache."
+
+#: admin/templates/apache-server.php:31
+msgid ""
+"Allows you to save or refresh the content entered above, in the .htaccess "
+"file that is stored in the cache directory."
+msgstr ""
+"Permite guardar ou atualizar o conteúdo da caixa de texto acima no arquivo ."
+"htaccess no diretório de cache."
+
+#: optimum-gravatar-cache.php:2957
+msgid "Apache Server"
+msgstr "Servidor Apache"
+
+#: optimum-gravatar-cache.php:2957
+msgid "Cache"
+msgstr "Cache"
+
+#: admin/templates/cache.php:19
+msgid "Cache Disabled"
+msgstr "Cache Inativa"
+
+#: admin/templates/cache.php:66
+msgid "Cache directory permissions"
+msgstr "Permissões do diretório do cache"
+
+#: admin/templates/stats.php:27
+msgid "Cached Gravatars"
+msgstr "Gravatars em cache"
+
+#: admin/templates/optimization.php:16
+msgid ""
+"Cached Gravatars are optimised via the popular online service 'resmush.it'. "
+"This plugin needs to communicate with this service in order to optimize "
+"cached Gravatars. It is not mandatory to use optimized avatars. However, by "
+"optimizing any cached Gravatars, they will be loaded faster by site "
+"visitors, resulting in a more reponsive site and a better user experience."
+msgstr ""
+"A optimização de Gravatars é feita através de um serviço Online 'resmush."
+"it'. Este plugin necessita de comunicar com este serviço a fim de optimizar "
+"os Gravatars. Não é obrigatório utilizar os Gravatars optimizados. No "
+"entanto ao optimizar os Gravatars estes serão carregados mais rapidamente "
+"pelo visitante do site e proporcionar uma melhor experiência."
+
+#: admin/templates/cache.php:13 admin/templates/cache.php:17
+msgid "Caching"
+msgstr "Cache"
+
+#: admin/templates/cache.php:18
+msgid "Caching Enabled"
+msgstr "Cache Activa"
+
+#: admin/templates/cache.php:37
+msgid "Check for outdated Gravatars every"
+msgstr "Procurar por Gravatars desactualizados a cada"
+
+#: admin/templates/cloudflare.php:14
+msgid "Clean Gravatars in Cloudflare when they are updated"
+msgstr "Limpar os Gravatars no Cloudflare quando eles são atualizados"
+
+#: admin/templates/cache.php:95
+msgid "Clear Cache"
+msgstr "Limpar a cache"
+
+#: admin/templates/other-options.php:21 admin/templates/other-options.php:22
+#: admin/templates/other-options.php:23
+msgid "Clear cache of Page Cache plugins"
+msgstr "Limpar cache de plugins de cache de página"
+
+#: optimum-gravatar-cache.php:2957
+msgid "Cloudflare"
+msgstr ""
+
+#: admin/templates/cache.php:106 admin/templates/apache-server.php:66
+#: admin/templates/stats.php:77 admin/templates/cloudflare.php:53
+#: admin/templates/nginx-server.php:37 admin/templates/other-options.php:92
+#: admin/templates/optimization.php:44 admin/templates/lazy-load.php:95
+#: admin/templates/default-avatar.php:46
+msgid "Contact Us"
+msgstr "Contacto"
+
+#: optimum-gravatar-cache.php:1089
+#, php-format
+msgid ""
+"Could not amend the permissions for '%s' in the .htaccess file '%s.htaccess'."
+msgstr ""
+"Não foi possível mudar as permissões para '%s' no ficheiro '%s.htaccess'."
+
+#: optimum-gravatar-cache.php:1321
+#, php-format
+msgid "Could not apply permissions '%s' to the file '%s'."
+msgstr "Não foi possível aplicar as permissões '%s' ao ficheiro '%s'."
+
+#: optimum-gravatar-cache.php:1313
+#, php-format
+msgid "Could not apply the permissions '%s' to '%s' files.<br>The first:%s"
+msgstr ""
+"Não foi possivel aplicar as permissões '%s' a '%s' ficheiros.<br>Os "
+"primeiros:%s"
+
+#: optimum-gravatar-cache.php:1276 optimum-gravatar-cache.php:1284
+#: optimum-gravatar-cache.php:1292
+#, php-format
+msgid "Could not apply the permissions '%s' to the '%s' directory."
+msgstr "Não foi possível aplicar as permissões '%s' no diretório '%s'."
+
+#: optimum-gravatar-cache.php:1016
+msgid ""
+"Could not communicate with Cloudflare. Please check your email and your "
+"global key."
+msgstr ""
+"Não foi possivel comunicar com a Cloudflare. Por favor verifique o seu email "
+"e sua chave global."
+
+#: optimum-gravatar-cache.php:625
+msgid "Could not copy files from old cache directory."
+msgstr "Não foi possível copiar ficheiros do diretório de cache antigo."
+
+#: optimum-gravatar-cache.php:642
+#, php-format
+msgid ""
+"Could not create directory '%s'.<br>Please make sure the '%s' directory "
+"exists and you have write permissions on this directory."
+msgstr ""
+"Não foi possível criar o directório '%s'.<br>Por favor verifique se tem "
+"permissões de escrita no directório '%s'."
+
+#: optimum-gravatar-cache.php:1238
+#, php-format
+msgid ""
+"Could not create directory '%s'.<br>Please make sure you have write "
+"permissions on directory '%s'."
+msgstr ""
+"Não foi possível criar o directório '%s'.<br>Por favor verifique se tem "
+"permissões de escrita no directório '%s'."
+
+#: optimum-gravatar-cache.php:1249 optimum-gravatar-cache.php:1260
+#, php-format
+msgid "Could not create the directory '%s'."
+msgstr "Não foi possível criar o directório '%s'."
+
+#: optimum-gravatar-cache.php:1102
+#, php-format
+msgid "Could not remove the .htaccess file '%s.htaccess'."
+msgstr "Não foi possível remover o ficheiro '%s.htaccess'."
+
+#: optimum-gravatar-cache.php:1076
+#, php-format
+msgid "Could not write to/update the .htaccess file '%s.htaccess'."
+msgstr "Não foi possível escrever no ficheiro '%s.htaccess'."
+
+#: optimum-gravatar-cache.php:2957 admin/templates/default-avatar.php:14
+msgid "Default/Placeholder Gravatar"
+msgstr "Gravatar por defeito"
+
+#: admin/templates/apache-server.php:37 admin/templates/apache-server.php:40
+msgid "Delete the .htaccess file"
+msgstr "Eliminar o ficheiro .htaccess"
+
+#: admin/templates/apache-server.php:41
+msgid "Delete the .htaccess file that is stored in the cache directory"
+msgstr "Eliminar o ficheiro .htaccess no diretório de cache."
+
+#: admin/templates/lazy-load.php:37
+msgid ""
+"Depending on your project/use-case, it may be more appropriate to manually "
+"insert the script into either the header or footer of your site. Placing the "
+"script in the footer of your site will mean the script is run after the rest "
+"of the page has been loaded. Placing the script in the header of your site "
+"could result in render-blocking. Please choose the location that best suits "
+"your project."
+msgstr ""
+"Dependendo de projeto para projeto pode ser mais adequado inserir o script "
+"em uma determinada parte da pagina. No rodapé normalmente é quando se "
+"pretende que os scripts iniciem imediatamente após serem descarregados. Já "
+"no cabeçalho os scripts tem que esperar que o DOM seja processado para "
+"iniciar. Escolha a opção que melhor se aqdque ao seu projeto."
+
+#: optimum-gravatar-cache.php:267
+msgid "Discussion Group"
+msgstr "Grupo de discussão"
+
+#: admin/templates/stats.php:66
+msgid "Disk space used by cached Gravatars"
+msgstr "Espaço em disco usado pelos Gravatars"
+
+#: optimum-gravatar-cache.php:268
+msgid "Donate"
+msgstr "Doar"
+
+#: admin/templates/lazy-load.php:44
+msgid "Download Gravatars that are this distance from being scrolled into view"
+msgstr "Descarregar Gravatars que estejam a esta distância"
+
+#: admin/templates/cache.php:108 admin/templates/apache-server.php:68
+#: admin/templates/stats.php:79 admin/templates/cloudflare.php:55
+#: admin/templates/nginx-server.php:39 admin/templates/other-options.php:94
+#: admin/templates/optimization.php:46 admin/templates/lazy-load.php:97
+#: admin/templates/default-avatar.php:48
+msgid "E-mail"
+msgstr "E-mail"
+
+#: admin/templates/other-options.php:67
+msgid "Enable learning mode"
+msgstr "Activar o modo de aprendizagem"
+
+#: admin/templates/cache.php:59
+msgid ""
+"Enter the directory where you want to save the cache files, eg: wp-content/"
+"uploads/optimum-gravatar-cache/"
+msgstr ""
+
+#: admin/templates/apache-server.php:13
+msgid "Example .htaccess file for Apache servers."
+msgstr "Exemplo de ficheiro de configuração .htaccess  para o servidor Apache."
+
+#: admin/templates/nginx-server.php:12
+msgid "Example configuration for NGinx servers."
+msgstr "Exemplo de configuração para o servidor NGinx."
+
+#: optimum-gravatar-cache.php:1208
+msgid "Failed to write file to disk."
+msgstr "Falha ao gravar o arquivo no disco."
+
+#: optimum-gravatar-cache.php:3057
+#, php-format
+msgid "File '%s' could not be deleted. Please check file/folder permissions."
+msgstr "Não foi possível eliminar o ficheiro '%s' verifique as permissões."
+
+#: optimum-gravatar-cache.php:1215
+msgid "File upload stopped by extension."
+msgstr "Carregamento do arquivo parado pela extensão."
+
+#: admin/templates/optimization.php:23
+msgid "Gravatar"
+msgstr "Gravatar"
+
+#: admin/templates/cache.php:57
+msgid "Gravatar cache directory"
+msgstr "Directório do cache dos Gravatars"
+
+#: optimum-gravatar-cache.php:1165
+msgid "Gravatar could not be saved. Please check file/folder permissions."
+msgstr "Não foi possível eliminar o ficheiro '%s' verifique as permissões."
+
+#: admin/templates/cache.php:75
+msgid "Gravatar files permissions"
+msgstr "Permissões dos ficheiros Gravatars"
+
+#: admin/templates/cache.php:85
+msgid "Gravatar sizes used"
+msgstr "Tamanhos usados nos Gravatars"
+
+#: admin/templates/optimization.php:23
+msgid "Gravatars"
+msgstr "Gravatars"
+
+#: admin/templates/stats.php:59
+msgid "Gravatars on disk"
+msgstr "Gravatars em disco"
+
+#: optimum-gravatar-cache.php:3325
+msgid ""
+"If you are using some other page cache plugin that is not supported you have "
+"to clear the cache of that same plugin."
+msgstr ""
+
+#: admin/templates/other-options.php:40
+msgid ""
+"If you use caching plugins, such as 'WP Super Cache', you should not select "
+"this option. It is possible that the cached pages in other plugins could "
+"contain references to cached Gravatars that no longer exist."
+msgstr ""
+"Se você usa algum tipo de cache de paginas como o 'WP Super Cache' você não "
+"deve seleccionar esta opção. Se você fizer as páginas em cache, terão links "
+"para imagens que não existem em cache."
+
+#: admin/templates/lazy-load.php:55
+msgid "Ignore Gravatars with this class"
+msgstr "Ignorar Gravatars com esta classe"
+
+#: admin/templates/other-options.php:62 admin/templates/other-options.php:66
+msgid "In learning mode"
+msgstr "Em modo de aprendizagem"
+
+#: admin/templates/lazy-load.php:34
+msgid "In the Page Header"
+msgstr "No cabeçalho da pagina"
+
+#: admin/templates/lazy-load.php:35
+msgid "In the page footer"
+msgstr "No rodape da pagina"
+
+#: admin/templates/other-options.php:49
+msgid ""
+"It is usually a good idea to submit the site URL with the UserAgent, as "
+"under certain circumstances other sites could block your requests as without "
+"this information you could violate their security policies."
+msgstr ""
+"Normalmente é uma boa pratica enviar o URL do site, pois por razões de "
+"segurança e outros os sites podem bloquear o seu por não saberem o que "
+"pretende."
+
+#: optimum-gravatar-cache.php:2957
+msgid "Lazy Load"
+msgstr "Lazy Load"
+
+#: admin/templates/stats.php:19
+msgid "MimeTypes Used"
+msgstr "MimeTypes usados"
+
+#: optimum-gravatar-cache.php:1201
+msgid "Missing a temporary folder."
+msgstr "Faltando uma pasta temporária."
+
+#: optimum-gravatar-cache.php:2957
+msgid "NGinx Server"
+msgstr "Servidor NGinx"
+
+#: admin/templates/stats.php:51
+msgid "Number of Gravatars that have been resolved"
+msgstr "Quantos Gravatars foram resolvidos"
+
+#: admin/templates/optimization.php:21
+msgid "Number of cached Gravatars to optimise simultaneously"
+msgstr "Quantos Gravatars optimizar de cada vez"
+
+#: admin/templates/stats.php:43
+msgid "Number of users and commenters do not have a custom Gravatar"
+msgstr "Quantos utilizadores e comentadores não têm um Gravatar personalizado"
+
+#: admin/templates/stats.php:35
+msgid "Number of users and commenters have a custom Gravatar"
+msgstr "Quantos utilizadores e comentadores usam um Gravatar personalizado"
+
+#: admin/templates/cache.php:47
+msgid "Number of users to check simultaneously"
+msgstr "Quantos utilizadores verificar de cada vez"
+
+#: admin/templates/lazy-load.php:20 admin/templates/lazy-load.php:21
+msgid "Only shown on the frontend"
+msgstr "Mostrar apenas em paginas não administrativas"
+
+#: optimum-gravatar-cache.php:2957
+msgid "Optimization"
+msgstr "Optimização"
+
+#: admin/templates/optimization.php:13 admin/templates/optimization.php:14
+#: admin/templates/optimization.php:15
+msgid "Optimize Gravatars"
+msgstr "Otimizar Gravatars"
+
+#: optimum-gravatar-cache.php:702 optimum-gravatar-cache.php:758
+#: optimum-gravatar-cache.php:820 optimum-gravatar-cache.php:885
+#: optimum-gravatar-cache.php:988 optimum-gravatar-cache.php:1049
+#: optimum-gravatar-cache.php:1130
+msgid "Options have been updated."
+msgstr "As opções foram guardadas com sucesso."
+
+#: optimum-gravatar-cache.php:2957
+msgid "Other Options"
+msgstr "Outras Opções"
+
+#: admin/templates/lazy-load.php:72
+msgid "Placeholder image"
+msgstr "Imagem de espaço reservado"
+
+#: admin/templates/cache.php:29 admin/templates/cache.php:39
+#: admin/templates/cache.php:49 admin/templates/optimization.php:23
+#: admin/templates/lazy-load.php:46
+msgid "Please enter a whole number greater than or equal to 1."
+msgstr "Por favor insira um numero inteiro a partir de 1."
+
+#: admin/templates/cache.php:67 admin/templates/cache.php:76
+#: admin/templates/apache-server.php:51
+msgid "Please enter an octal value for the permissions, eg: 0777"
+msgstr "Por favor, insira um valor em octal para as permissões, ex: 0777"
+
+#: admin/templates/cache.php:86
+msgid "Please enter the used sizes separated by commas, eg: 20,40,64"
+msgstr ""
+"Por favor, insira os tamanhos a usar separados por virgula, ex: 20,40,64"
+
+#: optimum-gravatar-cache.php:737 optimum-gravatar-cache.php:800
+#: optimum-gravatar-cache.php:956 optimum-gravatar-cache.php:1113
+msgid "Please set the cache first."
+msgstr "Por favor, configure primeiro a cache."
+
+#: admin/templates/optimization.php:29 admin/templates/optimization.php:30
+msgid "Pre-compress .SVG files"
+msgstr "Pré comprimir ficheiros .SVG"
+
+#: admin/templates/optimization.php:31
+msgid "Pre-compress Gravatars that are .SVG format"
+msgstr "Pré-comprimir Gravatars do tipo .SVG"
+
+#: admin/templates/other-options.php:13 admin/templates/other-options.php:14
+msgid "Query Strings"
+msgstr "Query Strings"
+
+#: admin/templates/cache.php:27
+msgid "Refresh Gravatar cache every"
+msgstr "Actualizar os Gravatars a cada"
+
+#: admin/templates/other-options.php:37 admin/templates/other-options.php:38
+msgid "Remove Gravatars from your cache when removed from gravatar.com"
+msgstr ""
+"Remover os Gravatars da cache quando eles são removidos do gravatar.com"
+
+#: admin/templates/other-options.php:39
+msgid ""
+"Remove Gravatars from your cache when they are removed from gravatar.com"
+msgstr ""
+"Remover os Gravatars da cache quando eles são removidos do gravatar.com"
+
+#: admin/templates/default-avatar.php:30 admin/templates/default-avatar.php:31
+#: admin/templates/default-avatar.php:32
+msgid "Reset default/placeholder Gravatar"
+msgstr "Repor o Gravatar por defeito"
+
+#: admin/templates/other-options.php:54 admin/templates/other-options.php:55
+msgid "Resolve domain through content URL"
+msgstr "Resolver dominio através do URL de conteudo"
+
+#: admin/templates/other-options.php:56
+msgid "Resolve the domain from the content URL"
+msgstr "Resolver o domínio a partir da URL de conteúdo"
+
+#: admin/templates/other-options.php:57
+msgid ""
+"Resolving the domain from the content URL is important when you have a "
+"domain or subdomain configured to serve static content. Serving assets "
+"'Cookie Free' is one of the main reasons some people configure a domain that "
+"will only host static content."
+msgstr ""
+"Resolver o domínio a partir da URL de conteúdo é importante quando tem um "
+"domínio ou subdomínio configurado para servir conteúdo estático. Cookie Free "
+"é uma das razões que nos leva a configurar um domínio apenas para conteúdo "
+"estático."
+
+#: admin/templates/cache.php:94 admin/templates/apache-server.php:59
+#: admin/templates/cloudflare.php:46 admin/templates/other-options.php:85
+#: admin/templates/optimization.php:37 admin/templates/lazy-load.php:88
+#: admin/templates/default-avatar.php:39
+msgid "Save Changes"
+msgstr "Guardar Alterações"
+
+#: admin/templates/apache-server.php:24 admin/templates/apache-server.php:28
+msgid "Save or update the .htaccess file"
+msgstr "Guardar ou atualizar o ficheiro .htaccess?"
+
+#: admin/templates/apache-server.php:29
+msgid "Save or update the .htaccess file in the cache directory"
+msgstr "Guardar ou atualizar o ficheiro .htaccess no directorio da cache"
+
+#: optimum-gravatar-cache.php:258
+msgid "Settings"
+msgstr "Opções"
+
+#: admin/templates/stats.php:11
+msgid "Sizes used"
+msgstr "Tamanhos usados"
+
+#: optimum-gravatar-cache.php:2957
+msgid "Stats"
+msgstr "Estatísticas"
+
+#: admin/templates/other-options.php:47
+msgid "Submit the site URL with the UserAgent to gravatar.com and resmush.it"
+msgstr "Enviar a URL do seu site nos pedidos a gravatar.com e resmush.it"
+
+#: admin/templates/cache.php:98
+msgid "Sync users and commenters now"
+msgstr "Sincronizar utilizadores e comentadores agora"
+
+#: admin/templates/cloudflare.php:31
+msgid ""
+"The Global API KEY that is used to communicate with your Cloudflare account "
+"through the API."
+msgstr ""
+"A chave global da API usada para comunicar com sua conta do Cloudflare por "
+"meio da API."
+
+#: optimum-gravatar-cache.php:3074
+msgid "The Gravatar cache has been successfully cleared."
+msgstr "A cache foi limpa com sucesso."
+
+#: admin/templates/cloudflare.php:39
+msgid ""
+"The Zone ID that is used to communicate with your Cloudflare account through "
+"the API."
+msgstr ""
+"O ID da zona usado para comunicar com sua conta do Cloudflare por meio da "
+"API."
+
+#: optimum-gravatar-cache.php:1353
+#, php-format
+msgid "The cache directory '%s' does not exist."
+msgstr "O directório do cache '%s' não existe."
+
+#: optimum-gravatar-cache.php:1377
+#, php-format
+msgid "The cache directory '%s' does not have file read/list permissions."
+msgstr "O directório do cache '%s' não permite listar os ficheiros."
+
+#: optimum-gravatar-cache.php:1365
+#, php-format
+msgid "The cache directory '%s' does not have write permissions."
+msgstr "O directório do cache '%s' não permite escrita."
+
+#: admin/templates/default-avatar.php:17
+msgid ""
+"The default Gravatar is used whenever the user does not have a custom "
+"Gravatar. It should be configured with an image that fits your site."
+msgstr ""
+"O Gravatar por defeito é usado sempre que o utilizador não tem um Gravatar "
+"personalizado. Deve ser configurado com uma imagem que se adeqúe ao seu site."
+
+#: optimum-gravatar-cache.php:1389
+#, php-format
+msgid ""
+"The directory '%s', which is used to store temporary files for the cache, "
+"does not exist."
+msgstr ""
+"O directório para criar ficheiros temporários do cache '%s' não existe."
+
+#: optimum-gravatar-cache.php:1413
+#, php-format
+msgid ""
+"The directory '%s', which is used to store temporary files for the cache, "
+"does not have file read/list permissions."
+msgstr ""
+"O directório para criar ficheiros temporários do cache '%s' não permite "
+"escrita."
+
+#: optimum-gravatar-cache.php:1401
+#, php-format
+msgid ""
+"The directory '%s', which is used to store temporary files for the cache, "
+"does not have write permissions."
+msgstr ""
+"O directório para criar ficheiros temporários do cache '%s' não permite "
+"escrita."
+
+#: optimum-gravatar-cache.php:1449
+#, php-format
+msgid ""
+"The directory for creating custom files from the cache '%s' does not allow "
+"listing the files."
+msgstr ""
+"O directório para criar ficheiros personalizados do cache '%s' não permite "
+"listar os ficheiros."
+
+#: optimum-gravatar-cache.php:1437
+#, php-format
+msgid ""
+"The directory to create custom files from cache '%s' does not allow writing."
+msgstr ""
+"O directório para criar ficheiros personalizados do cache '%s' não permite "
+"escrita."
+
+#: optimum-gravatar-cache.php:1425
+#, php-format
+msgid "The directory to create custom files from cache '%s' does not exist."
+msgstr ""
+"O directório para criar ficheiros personalizados do cache '%s' não existe."
+
+#: admin/templates/cloudflare.php:23
+msgid "The email address used to communicate with Cloudflare."
+msgstr "O endereço de email usado para comunicar com a Cloudflare."
+
+#: optimum-gravatar-cache.php:1172
+msgid "The file type is not supported."
+msgstr "O tipo de ficheiro não é suportado."
+
+#: admin/templates/optimization.php:24
+msgid ""
+"The number of Gravatars you set in this option will be optimized whenever "
+"background tasks run and will only run when there are Gravatars that require "
+"optimization."
+msgstr ""
+"O número de Gravatars que você definir nesta opção será optimizado sempre "
+"que as tarefas em segundo plano forem executadas e contanto que haja "
+"Gravatars para optimizar."
+
+#: optimum-gravatar-cache.php:1659
+msgid ""
+"The plugin has been activated, but requires some configuration to work. You "
+"can access the configuration page through the menu. You need to specify the "
+"directory in which the Gravatars will be saved, as a minimum."
+msgstr ""
+"O plugin foi activado, porém necessita ser configurado para funcionar. Entre "
+"na página de configuração através do menu. Você necessita pelo menos "
+"especificar o directório onde os Gravatars serão guardados."
+
+#: admin/templates/apache-server.php:18
+msgid ""
+"The text box contains an example configuration for Apache servers. These "
+"settings may not be appropriate for your use case.<br><br>This example "
+"configuration has several functions:<br>1. Deny access to list the cache "
+"directories;<br>2. Allow pre-compressed .SVG files to be used;<br>3. Force "
+"Gravatars to be revalidated by browsers.<br><br>This configuration may not "
+"be appropriate for your site/project/server, so please revise and adapt it "
+"as required."
+msgstr ""
+"A caixa de texto tem um exemplo de configuração para o servidor Apache. Esta "
+"configuração pode ou não ser adequada para o seu projecto.<br>Esta "
+"configuração de exemplo tem vários objectivos:<br><br>1. Negar acesso a "
+"listar os directórios da cache;<br>2. Permitir que sejam servidos ficheiros ."
+"SVG, pré-comprimidos;<br>3. Forçar a revalidação dos Gravatars em cache, "
+"pelos browsers.<br><br>Esta configuração pode ou não se adequar ao seu "
+"projecto, reveja a configuração e adeque a mesma às suas necessidades."
+
+#: admin/templates/nginx-server.php:25
+msgid ""
+"The text box contains an example configuration for NGinx servers. These "
+"settings may not be appropriate for your use case.<br><br>This example "
+"configuration has several functions:<br>1. Deny access to list the cache "
+"directories;<br>2. Allow pre-compressed .SVG files to be used;<br>3. Force "
+"Gravatars to be revalidated by browsers.<br><br>This configuration may not "
+"be appropriate for your site/project/server, so please revise and adapt it "
+"as required.<br><br>For NGinx servers, an administrator must manually "
+"configure the server."
+msgstr ""
+"A caixa de texto tem um exemplo de configuração para o servidor NGinx. Esta "
+"configuração pode ou não ser adequada para o seu projecto.<br>Esta "
+"configuração de exemplo tem vários objectivos:<br><br>1. Negar acesso a "
+"listar os directórios da cache;<br>2. Permitir que sejam servidos ficheiros ."
+"SVG, pré-comprimidos (O module não está activo por defeito, leia mais aqui: "
+"nginx.org/en/docs/http/ngx_http_gzip_static_module.html);<br>3. Forçar a "
+"revalidação dos Gravatars em cache, pelos Browsers.<br><br>Esta configuração "
+"pode ou não se adequar ao seu projecto, reveja a configuração e adeqúe a "
+"mesma às suas necessidades.<br><br>Para o servidor NGinx é necessário que o "
+"administrador configure manualmente o servidor."
+
+#: optimum-gravatar-cache.php:1187
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form."
+msgstr ""
+"O ficheiro carregado excede a diretiva MAX_FILE_SIZE que foi especificada no "
+"formulário HTML."
+
+#: optimum-gravatar-cache.php:1180
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini."
+msgstr "O ficheiro carregado excede a diretriz upload_max_filesize em php.ini."
+
+#: optimum-gravatar-cache.php:1194
+msgid "The uploaded file was only partially uploaded."
+msgstr "O ficheiro apenas foi parcialmente carregado."
+
+#: optimum-gravatar-cache.php:1024
+#, php-format
+msgid "There is no domain '%s' registered in your Cloudflare account."
+msgstr "Não há nenhum domínio '%s' registrado na sua conta Cloudflare."
+
+#: admin/templates/cache.php:88
+msgid ""
+"This field allows you to manually add Gravatar sizes that are used in your "
+"site by plugins and/or themes. It contains a list of sizes separated by "
+"commas. This field will always be updated if/when a new size is detected as "
+"being used."
+msgstr ""
+"Este campo permite adicionar tamanhos de Gravatars usados no seu site e "
+"contem uma lista de tamanhos usados separados por virgula. No entanto este "
+"campo será sempre actualizado caso um novo tamanho seja usado."
+
+#: admin/templates/lazy-load.php:75
+msgid "This image will always be used as a placeholder for Gravatars."
+msgstr ""
+"Esta imagem será usada sempre como imagem de espaço reservado para os "
+"Gravatars."
+
+#: admin/templates/lazy-load.php:82
+msgid ""
+"This image will be used as a placeholder image. The following file types are "
+"accepted: .svg, .png, .jpg, .gif. It is advised that this file is small, so "
+"that it loads very quickly."
+msgstr ""
+"Esta imagem será usada como imagem de espaço reservado. Aceita os seguintes "
+"tipos de imagem (.SVG, .PNG, .JPG, .GIF).  Esta imagem deve ter um tamanho "
+"muito pequeno para que seja possível carrega-la bastante rápido."
+
+#: admin/templates/default-avatar.php:24
+msgid ""
+"This image will be used as the default Gravatar. The following file types "
+"are accepted: .svg, .png, .jpg, .gif. This image should have the minimum "
+"dimensions of the largest Gravatar used on your site (except for .SVG "
+"files), so that the Gravatar does not lose quality when it is resized."
+msgstr ""
+"Esta imagem será usada como Gravatar por defeito. Aceita os seguintes tipos "
+"de imagem (.SVG, .PNG, .JPG, .GIF). A imagem deve ter as dimensões mínimas "
+"do maior Gravatar usado no seu site, para não perder qualidade quando for "
+"redimensionada. Salvo seja no caso do tipo .SVG."
+
+#: admin/templates/other-options.php:32
+msgid ""
+"This option allows Gravatars from *.gravatar.com to be displayed, until a "
+"version has been cached in the background. This prevents an extended period "
+"of time where users would see the default Gravatar for all users and "
+"commenters.<br><br>Attention, with this option enabled the custom Gravatar "
+"should not be an SVG file type, since gravatar.com does not support this "
+"file type. If you use an SVG image as your custom/placeholder Gravatar, "
+"gravatar.com will instead show the 'mysterious person' for any users that do "
+"not have a custom Gravatar."
+msgstr ""
+"Esta opção permite que os Gravatars sejam mostrados até que o Gravatar para "
+"os utilizadores seja resolvido em segundo plano. Desta forma, não existe "
+"mais o momento em que o Gravatar personalizado para todos é exibido. <br> "
+"<br> Atenção, com esta opção habilitada o Gra«avatar personalizado não deve "
+"ser do tipo SVG, já que o gravatar.com não suporta este tipo de ficheiro e "
+"vai usar a 'pessoa misteriosa' para os usuários que não têm um Gravatar "
+"personalizado, porque não é possível direccionar para o Gravatar "
+"personalizado do tipo SVG."
+
+#: admin/templates/cloudflare.php:15
+msgid ""
+"This option allows outdated gravatars to be removed from the Cloudflare "
+"cache whenever it is updated locally, forcing the Cloudflare to serve the "
+"updated gravatars."
+msgstr ""
+"Esta opção permite que os gravatars desatualizados sejam removidos do cache "
+"do Cloudflare sempre que forem atualizados localmente, forçando o Cloudflare "
+"a servir os gravatars atualizados."
+
+#: admin/templates/other-options.php:79
+msgid ""
+"This option allows you to add additional classes to displayed Gravatars. "
+"These classes will be used on all Gravatars that have been processed by the "
+"plugin."
+msgstr ""
+"Esta opção permite que adicione classes adicionais aos Gravatars caso seja "
+"necessário. Estas classes serão usadas em todos os Gravatars processados "
+"pelo plugin."
+
+#: admin/templates/cache.php:21
+msgid ""
+"This option allows you to enable or disable the Gravatar cache locally. You "
+"will still be able to configure all other aspects of the plugin."
+msgstr ""
+"Esta opção permite activar ou desactivar o cache de Gravatars localmente. "
+"Tem o mesmo efeito que desactivar o plugin."
+
+#: admin/templates/default-avatar.php:33
+msgid ""
+"This option allows you to reset the default Gravatar to use one originally "
+"provided by the plugin. This will remove any custom placeholder Gravatar you "
+"have set."
+msgstr ""
+"Redefinir o Gravatar por defeito, permite que seja utilizado o Gravatar "
+"disponibilizado pelo plugin quando instalado. Desta forma removendo qualquer "
+"personalização anterior."
+
+#: admin/templates/cache.php:32
+msgid ""
+"This option allows you to specify how many days the Gravatars are cached "
+"for. The plugin will check gravatar.com for new/updated Gravatars after this "
+"many day and will update your cache as necessary."
+msgstr ""
+"Esta opção permite especificar quantos dias, os Gravatars são armazenados em "
+"cache. Após esses dias será feita uma actualização do Gravatar, caso tenha "
+"sido modificado pelo dono no gravatar.com. Esta opção aceita um valor "
+"inteiro começando em 1."
+
+#: admin/templates/cache.php:52
+msgid ""
+"This option allows you to specify how many users Gravatars will be checked "
+"on gravatar.com simultaneously. Checks are performed in batches, to prevent "
+"overloading your server. Start with a smaller number and increase as "
+"necessary."
+msgstr ""
+"Esta opção permite que você especifique quantos utilizadores devem ser "
+"verificados a fim de verificar se o seu Gravatar mudou. Esta opção é "
+"importante, porque se o número é muito alto, pode consumir muitos recursos. "
+"Uma boa configuração dependerá do número de Gravatars que estão em cache, "
+"bem como dos recursos do servidor. Experimente, começando com um número "
+"pequeno."
+
+#: admin/templates/cache.php:61
+msgid ""
+"This option allows you to specify the directory where cached files will be "
+"saved. Gravatar images will be stored in this directory, as well as all "
+"files that are created by the plugin."
+msgstr ""
+"Esta opção permite que você especifique onde os ficheiros em cache serão "
+"guardados. Os Gravatars serão armazenadas neste directório."
+
+#: admin/templates/lazy-load.php:49
+msgid ""
+"This option allows you to specify the distance in pixels in which Gravatars "
+"should be loaded before scrolling into view. Gravatars will be loaded before "
+"they are visible on screen."
+msgstr ""
+"Esta opção permite especificar a quantidade de pixeis de distancia da parte "
+"visível da pagina um Gravatar é descarregado. Permitindo descarregar o "
+"Gravatar antes de ele aparecer na parte visível quando por exemplo você "
+"fizer scroll na pagina."
+
+#: admin/templates/cache.php:42
+msgid ""
+"This option lets you specify a time interval in minutes for the background "
+"tasks to run. This time interval will be used by WP Cron to schedule the "
+"tasks in the background. Tasks such as updating, resizing and optimizing "
+"Gravatars are done in the background to prevent impacting the response time "
+"of your pages."
+msgstr ""
+"Esta opção permite especificar um intervalo em minutos durante o qual as "
+"tarefas em segundo plano são executadas pelo cron. Tarefas como actualizar "
+"Gravatars, redimensioná-los, optimiza-los, são feitas em segundo plano para "
+"não influenciar o tempo de resposta da página."
+
+#: admin/templates/lazy-load.php:58
+msgid ""
+"This option prevents Lazy Load being used on the Gravatars that have this "
+"class applied. You can pass classes through to Gravatars via the Wordpress "
+"get_avatar() function or the BuddyPress bp_core_fetch_avatar() function, in "
+"your themes and/or plugins. If this class is detected on a Gravatar, Lazy "
+"Load will not be applied to it."
+msgstr ""
+"Esta opção permite que seja possível não usar Lazy Load em Gravatars que "
+"contenham esta classe. É possível passar classes através da função "
+"get_avatar() do Wordpress ou bp_core_fetch_avatar() do BudyPress em temas e "
+"plugins. Se for encontrada esta classe não é usado Lazy Load no Gravatar em "
+"questão."
+
+#: admin/templates/lazy-load.php:23
+msgid ""
+"This option prevents Lazy Load from being run on admin pages. Lazy Load will "
+"only be applied to non-admin/non-logged-in users."
+msgstr ""
+"Esta opção permite que seja possível desabilitar o Lazy Load nas paginas "
+"administrativas do site."
+
+#: admin/templates/other-options.php:24
+msgid ""
+"This option, when enabled, allows you to clear the cache of posts and pages "
+"in the supported Cache Plugins, such as WP Super Cache. Whenever there are "
+"changes in Gravatars, the posts and pages containing the updated Gravatars "
+"will be cleaned."
+msgstr ""
+"Esta opção, quando ativada, permite limpar o cache de posts e páginas nos "
+"plugins de cache de página suportados, como o WP Super Cache. Sempre que houver "
+"alterações nos Gravatars, os posts e páginas contendo os Gravatars "
+"desatualizados serão limpos."
+
+#: optimum-gravatar-cache.php:242
+msgid ""
+"This plugin is requires some PHP modules that are not currently loaded:"
+"<br>Imagick/GD - One of these modules is required to allow the plugin to "
+"resize the cached Gravatars;<br>Curl - This module is required to allow the "
+"plugin to download several Gravatars via the same connection.<br><br>Please "
+"activate these modules, to allow the plugin to work."
+msgstr ""
+"Este plugin está dependente de alguns modules do PHP que não estão "
+"carregados:<br>Imagick/GD - Um destes modules é necessário para que seja "
+"possível redimensionar os Gravatars;<br>Curl - Este module é necessário para "
+"que seja possível descarregar vários ficheiros com a mesma conexão."
+"<br><br>Active estes módulos para poder usar este plugin."
+
+#: admin/templates/cache.php:78
+msgid ""
+"To allow better control over cache permissions, configure the mode that you "
+"want to use when creating and updating Gravatars as well as the lock files "
+"for the cache in the file system. You need to enter the OCTAL value."
+msgstr ""
+"Para permitir um melhor controle sobre as permissões do cache, configure o "
+"modo que você deseja que seja usado ao serem criados e actualizados os "
+"ficheiros dos Gravatars e de lock para a cache no sistema de ficheiros. "
+"Insira o valor em OCTAL."
+
+#: admin/templates/cache.php:69
+msgid ""
+"To allow better control over cache permissions, configure the mode that you "
+"want to use when creating any directories for the cache in the file system. "
+"You need to enter the OCTAL value."
+msgstr ""
+"Para permitir um melhor controle sobre as permissões do cache, configure o "
+"modo que você deseja que seja usado ao serem criados e actualizados os "
+"ficheiros dos Gravatars e de lock para a cache no sistema de ficheiros. "
+"Insira o valor em OCTAL."
+
+#: admin/templates/apache-server.php:53
+msgid ""
+"To allow better control over cache permissions, configure the mode that you "
+"want to use when the .htaccess file is created and updated in the file "
+"system. You need to enter the OCTAL value."
+msgstr ""
+"Para permitir um melhor controle sobre as permissões do cache, configure o "
+"modo que deseja usar quando o arquivo .htaccess for criado e actualizado no "
+"sistema de ficheiros. Insira valores em OCTAL."
+
+#: optimum-gravatar-cache.php:3035
+msgid "Unable to remove data from the database table."
+msgstr "Não foi possível limpar os dados na tabela."
+
+#: optimum-gravatar-cache.php:3043
+msgid "Unable to reset AUTO_INDEX on the database table."
+msgstr "Não foi possível fazer reset ao AUTO_INDEX na tabela."
+
+#: optimum-gravatar-cache.php:1222
+msgid "Unknown upload error."
+msgstr "Erro de carregamento desconhecido."
+
+#: admin/templates/default-avatar.php:22
+msgid "Upload custom Gravatar"
+msgstr "Carregar Gravatar personalizado"
+
+#: admin/templates/lazy-load.php:80
+msgid "Upload placeholder image"
+msgstr "Carregar imagem de espaço reservado"
+
+#: admin/templates/cloudflare.php:12 admin/templates/cloudflare.php:13
+msgid "Use Cloudflare"
+msgstr "Use o Cloudflare"
+
+#: admin/templates/lazy-load.php:12 admin/templates/lazy-load.php:13
+msgid "Use Lazy Load"
+msgstr "Usar lazy load"
+
+#: admin/templates/lazy-load.php:22
+msgid "Use Lazy Load only on site frontend"
+msgstr "Usar Lazy Load somente nas paginas não administrativas do site"
+
+#: admin/templates/lazy-load.php:14
+msgid "Use Lazy Load with Gravatars"
+msgstr "Usar Lazy Load com os Gravatars"
+
+#: admin/templates/lazy-load.php:67
+msgid ""
+"Use a placeholder image that is displayed to users while Gravatars are being "
+"downloaded. This is important when on a slow connection, as it can take some "
+"time to download and cache Gravatars."
+msgstr ""
+"Usar uma imagem de espaço reservado permite que seja apresentado a imagem "
+"animada ao utilizador enquanto Gravatar é descarregado. É importante quando "
+"é utilizado conexões lentas, que pode demorar algum tempo a descarregar os "
+"Gravatars. Nesta versão a imagem animada não é configurável, nas próximas "
+"versões será configurável."
+
+#: admin/templates/other-options.php:15
+msgid ""
+"Use a query string with Gravatar modification date for cache busting/"
+"invalidation"
+msgstr ""
+"Usar uma query string com a hora da última modificação do ficheiro para "
+"invalidação do cache"
+
+#: admin/templates/other-options.php:29 admin/templates/other-options.php:30
+msgid "Use gravatar.com"
+msgstr "Usar gravatar.com"
+
+#: admin/templates/other-options.php:31
+msgid "Use gravatar.com until there is a Gravatar in the cache"
+msgstr "Use gravatar.com até que haja um Gravatar no cache"
+
+#: admin/templates/lazy-load.php:64 admin/templates/lazy-load.php:65
+msgid "Use placeholder image"
+msgstr "Usar imagem de espaço reservado"
+
+#: admin/templates/lazy-load.php:66
+msgid "Use the placeholder image to animate the Gravatar download"
+msgstr ""
+"Usar uma imagem de espaço reservado para animar o descarregamento da imagem "
+"final"
+
+#: admin/templates/other-options.php:45 admin/templates/other-options.php:46
+#: admin/templates/other-options.php:48
+msgid "UserAgent"
+msgstr "UserAgent"
+
+#: optimum-gravatar-cache.php:3014
+msgid "Users and commenters successfully synced."
+msgstr "Sincronizar utilizadores e comentadores agora"
+
+#: admin/templates/lazy-load.php:15
+msgid ""
+"Using Lazy Load allows only visible Gravatars to be downloaded, allowing "
+"higher priority content to download and be displayed faster. Lazy Loading "
+"also saves data on mobile/slow networks, among a list of other benefits! "
+"Search 'Lazy Load' on Google for more information."
+msgstr ""
+"Usando Lazy Load permite que apenas os Gravatars visíveis sejam "
+"descarregados, permitindo que outro conteúdo necessário seja descarregado "
+"mais rapidamente. Permite poupar dados que em redes móveis é caro. Entre "
+"outras boas razões! Procure por Lazy Load no google para se informar melhor."
+
+#: admin/templates/other-options.php:16
+msgid ""
+"Using a query string (such as ?d=[modification date]) allows browsers to "
+"invalidate a particular Gravatar’s cache whenever the query string is "
+"changed (such as when a Gravatar is updated)."
+msgstr ""
+"Usar uma query string no formato ?d=[data de modificação] permite aos "
+"Browsers invalidar a cache para um determinado Gravatar sempre que a query "
+"string mudar."
+
+#: admin/templates/optimization.php:32
+msgid ""
+"Using pre-compressed .SVG files allows you to save resources on your server. "
+"This is because the files are compressed and ready to be served with no need "
+"for the server to perform any optimization/compression to serve them every "
+"time they are requested. However, the server must be configured to use pre-"
+"compressed .svg files."
+msgstr ""
+"Quando os ficheiros do tipo .SVG são pré comprimidos permitem que você poupe "
+"recursos no seu servidor. Porque os arquivos são pré-comprimidos e "
+"guardados, prontos para serem servidos. O servidor não precisa pré-comprimir "
+"toda vez que eles são enviados para o navegador. No entanto, o servidor deve "
+"ser configurado para usar ficheiros pré-comprimidos."
+
+#: optimum-gravatar-cache.php:1334
+msgid ""
+"WP Cron is inactive in your configuration, if you use cron of your system to "
+"run your WP Cron tasks, this warning is not important, otherwise it is "
+"necessary to activate WP Cron."
+msgstr ""
+"O WP Cron está inativo em sua configuração, se você usar o cron do seu "
+"sistema para executar suas tarefas do WP Cron, este aviso não é importante, "
+"caso contrário é necessário ativar o WP Cron."
+
+#: admin/templates/cache.php:107 admin/templates/apache-server.php:67
+#: admin/templates/stats.php:78 admin/templates/cloudflare.php:54
+#: admin/templates/nginx-server.php:38 admin/templates/other-options.php:93
+#: admin/templates/optimization.php:45 admin/templates/lazy-load.php:96
+#: admin/templates/default-avatar.php:47
+msgid "WebSite"
+msgstr "WebSite"
+
+#: admin/templates/other-options.php:69
+msgid ""
+"When the 'Learning Mode' option is enabled, the plugin captures the sizes of "
+"the Gravatars used on your site. This will reduce the bandwidth used to "
+"download assets from gravatar.com. Not only that, but the processing of "
+"Gravatars will be faster as the plugin will have captured the sizes relevant "
+"to your site. Leave this option active and navigate through pages on your "
+"site that contain Gravatars, to speed up the size collection process."
+msgstr ""
+"Quando o modo de aprendizagem está habilitado, o plugin apenas captura os "
+"tamanhos dos Gravatars usados em seu site. Isso reduzirá a largura de banda "
+"usada na comunicação com gravatar.com. O processamento dos Gravatars será "
+"mais rápido porque temos antecipadamente os tamanhos capturados. Deixe esta "
+"opção activa por um tempo e visite seu site onde os Gravatars aparecem para "
+"acelerar o processo de colecta de tamanhos."
+
+#: admin/templates/lazy-load.php:29 admin/templates/lazy-load.php:33
+msgid "Where to insert the script"
+msgstr "Onde pretende inserir o script"
+
+#: admin/templates/cloudflare.php:20
+msgid "Your account email address"
+msgstr "Endereço de e-mail da sua conta"
+
+#: admin/templates/cloudflare.php:28
+msgid "Your global API Key"
+msgstr "A sua chave global da API"
+
+#: admin/templates/cloudflare.php:36
+msgid "Your zone ID"
+msgstr "O seu ID de Zona"
+
+#: admin/templates/cache.php:30
+msgid "day"
+msgstr "dia"
+
+#: admin/templates/cache.php:30
+msgid "days"
+msgstr "dias"
+
+#: admin/templates/cache.php:96
+msgid "image"
+msgstr "imagem"
+
+#: admin/templates/cache.php:96
+msgid "images"
+msgstr "imagens"
+
+#: admin/templates/cache.php:40
+msgid "minute"
+msgstr "minuto"
+
+#: admin/templates/cache.php:40
+msgid "minutes"
+msgstr "minutos"
+
+#: admin/templates/lazy-load.php:47
+msgid "pixel"
+msgstr "pixel"
+
+#: admin/templates/lazy-load.php:47
+msgid "pixels"
+msgstr "pixeis"
+
+#: admin/templates/cache.php:50
+msgid "user"
+msgstr "utilizador"
+
+#: admin/templates/cache.php:50
+msgid "users"
+msgstr "utilizadores"
+
+#~ msgid "Dismiss this notice."
+#~ msgstr "Descartar esta notificação."

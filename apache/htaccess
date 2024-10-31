@@ -1,0 +1,68 @@
+# The default configuration file for Optimum Gravatar Cache on Apache Server
+<IfModule mod_authz_host.c>
+	Require all denied
+</IfModule>
+
+<IfModule mod_access_compat.c>
+	Order Allow,Deny
+	Deny from all
+</IfModule>
+
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+	# Make sure the browser supports gzip encoding before we send it
+	RewriteCond %{HTTP:Accept-Encoding} \b(x-)?gzip\b
+	RewriteCond %{REQUEST_URI} .*\.svg
+	RewriteCond %{REQUEST_FILENAME}.gz -s
+	RewriteRule ^(.+) $1.gz [L]
+</IfModule>
+
+AddDefaultCharset utf-8
+AddCharset UTF-8 .svg
+FileETag None
+
+<ifModule mod_headers.c>
+Header set X-Robots-Tag noindex
+</ifModule>
+
+<filesMatch "\.(jpg|png|gif)$">
+	<IfModule mod_authz_host.c>
+		Require all granted
+	</IfModule>
+	<IfModule mod_access_compat.c>
+		Allow from all
+	</IfModule>
+	<ifModule mod_headers.c>
+		Header unset ETag
+		Header set Cache-Control "max-age=0"
+	</ifModule>
+  <IfModule mod_expires.c>
+	ExpiresActive Off
+  </ifModule>
+</filesMatch>
+<filesMatch "\.svg$">
+	<IfModule mod_authz_host.c>
+		Require all granted
+	</IfModule>
+	<IfModule mod_access_compat.c>
+		Allow from all
+	</IfModule>
+</FilesMatch>
+<FilesMatch \.svg\.gz$>
+	SetEnv no-gzip
+	<IfModule mod_authz_host.c>
+		Require all granted
+	</IfModule>
+	<IfModule mod_access_compat.c>
+		Allow from all
+	</IfModule>
+    	ForceType 'image/svg+xml; charset=utf-8'
+	<ifModule mod_headers.c>
+     		Header unset ETag
+		Header set Cache-Control "max-age=0"
+		Header set Content-Encoding gzip
+	</ifModule>
+	<IfModule mod_expires.c>
+		ExpiresActive Off
+	</ifModule>
+</FilesMatch>

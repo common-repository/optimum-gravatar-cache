@@ -1,0 +1,12 @@
+img.avatar.photo{
+  opacity: 1;
+  animation: avatarFadeIn 1s ease;
+}
+@keyframes avatarFadeIn{
+  0%{
+    opacity: 0.5;
+  }
+  100%{
+    opacity: 1;
+  }
+}
